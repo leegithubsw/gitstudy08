@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
     fun findfiew() {
         tv1 = findViewById(R.id.tv1)
+        tv1.setText("두번째 빈 커밋을 표기하기위하여 수정")
         et1 = findViewById(R.id.et1)
         bt1 = findViewById(R.id.bt1)
 
